@@ -1,0 +1,61 @@
+[2026-04-01 12:44:56] INFO — [ALERT/LOW] [10.232.69.179] New connection from 10.232.69.179:41404 — flagged suspicious (honeypot has no legitimate users)
+[2026-04-01 12:44:56] INFO — [ALERT/LOW] [10.232.69.179] Login attempt #1 from 10.232.69.179 — user='SSH-2.0-OpenSSH_10.2p1 Debian-2' pass=''
+[2026-04-01 12:44:56] INFO — [10.232.69.179] Session ended — duration: 0.0s
+[2026-04-01 12:55:20] INFO     — [LOW] [10.232.69.179] New connection from 10.232.69.179:40663 — flagged suspicious
+[2026-04-01 12:55:20] INFO     — [LOW] [10.232.69.179] Failed login #1 — user='SSH-2.0-OpenSSH_10.2p1 Debian-2' pass=''
+[2026-04-01 12:55:20] INFO     — [10.232.69.179] Session ended — duration=0.0s  commands_run=0
+[2026-04-01 12:55:53] INFO     — [LOW] [10.232.69.179] New connection from 10.232.69.179:36580 — flagged suspicious
+[2026-04-01 12:55:53] INFO     — [LOW] [10.232.69.179] Failed login #2 — user='SSH-2.0-OpenSSH_10.2p1 Debian-2' pass=''
+[2026-04-01 12:55:53] INFO     — [10.232.69.179] Session ended — duration=0.0s  commands_run=0
+[2026-04-01 12:56:05] INFO     — [LOW] [10.232.69.179] New connection from 10.232.69.179:58806 — flagged suspicious
+[2026-04-01 12:56:05] INFO     — [LOW] [10.232.69.179] Failed login #3 — user='SSH-2.0-OpenSSH_10.2p1 Debian-2' pass=''
+[2026-04-01 12:56:05] INFO     — [10.232.69.179] Session ended — duration=0.0s  commands_run=0
+[2026-04-01 12:56:07] INFO     — [LOW] [10.232.69.179] New connection from 10.232.69.179:58807 — flagged suspicious
+[2026-04-01 12:56:07] INFO     — [LOW] [10.232.69.179] Failed login #4 — user='SSH-2.0-OpenSSH_10.2p1 Debian-2' pass=''
+[2026-04-01 12:56:07] INFO     — [10.232.69.179] Session ended — duration=0.0s  commands_run=0
+[2026-04-01 12:56:08] INFO     — [LOW] [10.232.69.179] New connection from 10.232.69.179:58808 — flagged suspicious
+[2026-04-01 12:56:08] INFO     — [LOW] [10.232.69.179] Failed login #5 — user='SSH-2.0-OpenSSH_10.2p1 Debian-2' pass=''
+[2026-04-01 12:56:08] WARNING  — [HIGH] [10.232.69.179] BRUTE FORCE DETECTED — 5 failed attempts from 10.232.69.179
+[2026-04-01 12:56:08] INFO     — [10.232.69.179] Session ended — duration=0.0s  commands_run=0
+[2026-04-01 12:56:17] INFO     — [LOW] [10.232.69.179] New connection from 10.232.69.179:58809 — flagged suspicious
+[2026-04-01 12:56:17] INFO     — [LOW] [10.232.69.179] Failed login #6 — user='SSH-2.0-OpenSSH_10.2p1 Debian-2' pass=''
+[2026-04-01 12:56:17] INFO     — [10.232.69.179] Session ended — duration=0.0s  commands_run=0
+[2026-04-01 13:10:54] INFO     [LOW] [10.232.69.179] New SSH connection from 10.232.69.179:26860
+[2026-04-01 13:11:12] INFO     [MEDIUM] [10.232.69.179] Fake credentials accepted  user='root'  — shell session started
+[2026-04-01 13:11:16] INFO     [LOW] [10.232.69.179] CMD [LOW]  user='root'  $ dir
+[2026-04-01 13:11:18] INFO     [LOW] [10.232.69.179] CMD [LOW]  user='root'  $ ls
+[2026-04-01 13:11:38] INFO     [LOW] [10.232.69.179] CMD [LOW]  user='root'  $ pwd
+[2026-04-01 13:11:42] INFO     [LOW] [10.232.69.179] CMD [LOW]  user='root'  $ cd lib
+[2026-04-01 19:26:36] INFO     [LOW] [10.232.69.179] New SSH connection from 10.232.69.179:35234
+[2026-04-01 19:26:41] INFO     [LOW] [10.232.69.179] Failed login #1  user='root'  pass='123'
+[2026-04-01 19:26:42] INFO     [LOW] [10.232.69.179] Failed login #2  user='root'  pass='123'
+[2026-04-01 19:26:44] INFO     [LOW] [10.232.69.179] Failed login #3  user='root'  pass='123'
+[2026-04-01 19:26:57] INFO     [LOW] [10.232.69.179] New SSH connection from 10.232.69.179:60076
+[2026-04-01 19:26:59] INFO     [LOW] [10.232.69.179] Failed login #4  user='root'  pass='tyt'
+[2026-04-01 19:27:00] INFO     [LOW] [10.232.69.179] Failed login #5  user='root'  pass='tuir'
+[2026-04-01 19:27:02] INFO     [LOW] [10.232.69.179] Failed login #6  user='root'  pass='kadsfj'
+[2026-04-01 19:27:52] INFO     [LOW] [10.232.69.179] New SSH connection from 10.232.69.179:45881
+[2026-04-01 19:27:56] INFO     [MEDIUM] [10.232.69.179] Fake credentials accepted  user='root'  — shell session started
+[2026-04-01 19:27:59] INFO     [LOW] [10.232.69.179] CMD [LOW]  user='root'  $ ls
+[2026-04-01 19:34:58] INFO     [LOW] [10.232.69.179] New SSH connection from 10.232.69.179:17055
+[2026-04-01 19:35:01] INFO     [MEDIUM] [10.232.69.179] Fake credentials accepted  user='root'  — shell session started
+[2026-04-01 19:35:03] INFO     [LOW] [10.232.69.179] CMD [LOW]  user='root'  $ ls
+[2026-04-01 19:35:08] INFO     [LOW] [10.232.69.179] CMD [LOW]  user='root'  $ cd etc
+[2026-04-01 19:35:17] INFO     [LOW] [10.232.69.179] CMD [LOW]  user='root'  $ clear
+[2026-04-01 19:37:29] INFO     [LOW] [10.232.69.179] CMD [LOW]  user='root'  $ exit
+[2026-04-01 20:41:13] INFO     [LOW] [10.232.69.179] New SSH connection from 10.232.69.179:7947
+[2026-04-01 20:41:23] INFO     [LOW] [10.232.69.179] Failed login #1  user='root'  pass='lasdfkj'
+[2026-04-01 20:41:24] INFO     [LOW] [10.232.69.179] Failed login #2  user='root'  pass='alkdjf'
+[2026-04-01 20:41:25] INFO     [LOW] [10.232.69.179] Failed login #3  user='root'  pass='aklsdjfa.d'
+[2026-04-01 20:41:52] INFO     [LOW] [10.232.69.179] New SSH connection from 10.232.69.179:7948
+[2026-04-01 20:41:56] INFO     [LOW] [10.232.69.179] Failed login #4  user='root'  pass='laksdjfal'
+[2026-04-01 20:41:59] INFO     [LOW] [10.232.69.179] Failed login #5  user='root'  pass='lsdfkja'
+[2026-04-01 20:42:00] INFO     [LOW] [10.232.69.179] Failed login #6  user='root'  pass='alkdfj'
+[2026-04-01 20:42:37] INFO     [LOW] [10.232.69.179] New SSH connection from 10.232.69.179:7951
+[2026-04-01 20:43:01] INFO     [LOW] [10.232.69.179] Failed login #7  user='root'  pass='[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B12345678'
+[2026-04-01 20:43:18] INFO     [LOW] [10.232.69.179] New SSH connection from 10.232.69.179:7953
+[2026-04-01 20:43:22] INFO     [LOW] [10.232.69.179] Failed login #8  user='root'  pass='[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B12345678'
+[2026-04-01 20:43:38] INFO     [MEDIUM] [10.232.69.179] Fake credentials accepted  user='root'  — shell session started
+[2026-04-01 20:44:18] INFO     [LOW] [10.232.69.179] CMD [LOW]  user='root'  $ ls
+[2026-04-01 20:44:28] INFO     [LOW] [10.232.69.179] CMD [LOW]  user='root'  $ cd etc
+[2026-04-01 20:45:38] INFO     [10.232.69.179] Session closed  duration=120.6s  cmds=2
